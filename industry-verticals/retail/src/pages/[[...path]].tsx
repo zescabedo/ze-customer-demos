@@ -99,7 +99,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     }
     if (page) {
       if (process.env.NODE_ENV === 'development') {
-        console.log('[getStaticProps] Page found:', page.siteName, page.path);
+        console.log('[getStaticProps] Page found:', page.siteName, 'for path:', path || '/');
       }
       props = {
         page,
@@ -111,7 +111,12 @@ export const getStaticProps: GetStaticProps = async (context) => {
       };
     } else {
       if (process.env.NODE_ENV === 'development') {
-        console.warn('[getStaticProps] Page not found for path:', path || '/', 'locale:', context.locale);
+        console.warn(
+          '[getStaticProps] Page not found for path:',
+          path || '/',
+          'locale:',
+          context.locale
+        );
       }
     }
   } catch (error) {
