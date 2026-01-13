@@ -37,6 +37,7 @@ const HeroBannerCommon = ({
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
   const hideGradientOverlay = styles?.includes(HeroBannerStyles.HideGradientOverlay);
+  const imageFitCover = styles?.includes(HeroBannerStyles.ImageFitCover);
 
   if (!fields) {
     return isPageEditing ? (
@@ -59,7 +60,11 @@ const HeroBannerCommon = ({
     >
       {/* Background Media */}
       {hasMedia ? (
-        <div className="relative w-full">
+        <div
+          className={clsx('relative w-full', {
+            'h-full min-h-[600px] lg:min-h-[700px]': imageFitCover && hasImage,
+          })}
+        >
           {hasVideo ? (
             <video
               className="h-full w-full object-cover"
@@ -72,7 +77,14 @@ const HeroBannerCommon = ({
               <source src={fields.Video?.value?.src} type="video/webm" />
             </video>
           ) : hasImage ? (
-            <ContentSdkImage field={fields.Image} className="h-auto w-full" priority />
+            <ContentSdkImage
+              field={fields.Image}
+              className={clsx({
+                'h-auto w-full': !imageFitCover,
+                'h-full w-full object-cover': imageFitCover,
+              })}
+              priority
+            />
           ) : null}
           {/* Gradient overlay to fade image/video at bottom */}
           {!hideGradientOverlay && (

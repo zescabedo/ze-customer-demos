@@ -20,7 +20,7 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "53d0df0a-b9c3-4a83-9150-37c68259f6ab"
       Hint: Title
-      Value: Related Products
+      Value: Popular
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -31,11 +31,11 @@ Languages:
         <link class="" querystring="" id="b86a1b6c-c131-42ce-afcf-d7fef4a543f5" anchor="" target="" title="" linktype="internal" text="View All" url="/industry-verticals/forma-lux/Home/Products" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88b463d8-7f5a-45af-9fdd-49ae3bf83fb7"
+      Value: "397d5021-2e39-4046-8ed2-e9fbb65be8e5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\ranula.gamage@sitecore.com
+        sitecore\zach.escabedo@sitecore.com
     - ID: "c3fb8c52-2f64-45bc-9970-ea340d7271fa"
       Hint: ProductsList
       Value: |
@@ -45,7 +45,7 @@ Languages:
         {76F9B02F-ADCD-4C45-A5DA-5047CF157D5E}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251127T103505Z
+      Value: 20260113T031340Z
 - Language: "es-ES"
   Versions:
   - Version: 1

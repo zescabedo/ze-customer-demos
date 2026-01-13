@@ -15,10 +15,10 @@ SharedFields:
 - ID: "b441a09f-ddb2-41a8-84cc-2533686541f4"
   Hint: PromoImageOne
   Value: |
-    <image mediaid="356818aa-93e2-4510-bb99-4d25fae2ec23" />
+    <image mediaid="e7bef2e9-61ef-45c2-9631-9fe66ca84807" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "55bbed9b-bebf-4b10-896d-baf3a9edf426"
+  Value: "2c83659c-b56b-473c-b334-60a7825d8749"
 Languages:
 - Language: en
   Versions:
@@ -54,14 +54,14 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "256747a2-08fc-4e5b-a00f-db450cfbe83b"
+      Value: "bda3b3d8-7f70-41dd-964e-fcf4f6be2f6b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251212T153345Z
+      Value: 20260113T024535Z
     - ID: "f7e3056b-5e6e-4080-b2b7-84f76b2052fc"
       Hint: PromoTitle
       Value: Practice Care Is Our Priority 
