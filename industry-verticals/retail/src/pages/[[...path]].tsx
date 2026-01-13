@@ -83,7 +83,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   } else {
     page = context.preview
       ? await client.getPreview(context.previewData)
-      : await client.getPage(path, { locale: context.locale });
+      : await client.getPage(path || '/', { locale: context.locale });
   }
   if (page) {
     props = {
